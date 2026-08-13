@@ -8,6 +8,10 @@ You can:
 * Update articles
 * Delete articles
 
+## Requirements
+
+* Node.js >= 20
+
 ## Types of servers
 
 Your main server is "default" server. You can run:

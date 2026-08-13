@@ -54,11 +54,12 @@ module.exports = class PageStorage {
       username: this.botData.user,
       password: this.botData.password,
     }).then(() => {
-      return this.bot.read(pagenames.join('|'), { timeout: 8000 }).then((response) => {
+      return this.bot.read(pagenames.join('|'), false, { timeout: 8000 }).then((response) => {
         const ids = Object.keys(response.query.pages);
         ids.forEach((id) => {
           const pagename = response.query.pages[id]['title'];
-          const content = response.query.pages[id]['revisions'] ? response.query.pages[id]['revisions'][0]['*'] : '';
+          const revisions = response.query.pages[id]['revisions'];
+          const content = revisions ? revisions[0].slots.main['*'] : '';
           if (content === undefined) {
             console.log(`There's no content for: ${pagename}`);
           }
