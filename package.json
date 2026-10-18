@@ -22,7 +22,8 @@
     "download": "node components/page-storage/page-storage-download.js",
     "upload": "node components/page-storage/page-storage-upload.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "changelog": "npx @tertium/gith changelog"
+    "changelog": "npx @tertium/gith changelog",
+    "release:patch": "npx @tertium/gith release --patch"
   },
   "repository": "git+ssh://git@bitbucket.org/Tertiumnon/mw-deploy.git",
   "author": "Vitaliy Balabanov",
