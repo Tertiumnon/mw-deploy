@@ -52,10 +52,6 @@ Delete-process removes wiki-pages on target-server.
 npm run delete -- --dev {{Summary}}
 ```
 
-## Documentation
-
-- [Install](docs/INSTALL.md)
-
 ## Support
 
 If this project is useful to you, you can support its development on [Ko-fi](https://ko-fi.com/tertiumnon).
