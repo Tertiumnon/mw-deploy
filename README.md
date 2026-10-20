@@ -8,10 +8,6 @@ You can:
 * Update articles
 * Delete articles
 
-## Requirements
-
-* Node.js >= 20
-
 ## Types of servers
 
 Your main server is "default" server. You can run:
@@ -55,6 +51,10 @@ Delete-process removes wiki-pages on target-server.
 ```Bash
 npm run delete -- --dev {{Summary}}
 ```
+
+## Documentation
+
+- [Install](docs/INSTALL.md)
 
 ## Support
 
