@@ -15,3 +15,5 @@ team:
       - owner
       - developer
     github: Tertiumnon
+distribution:
+  - npm
