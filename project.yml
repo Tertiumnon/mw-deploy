@@ -1,3 +1,17 @@
 type: cli
-publish_on:
+slug: mw-deploy
+listed_on:
   - https://tertiumnon.github.io
+display_name:
+  en: "MediaWiki Template Deploy"
+summary:
+  en: "Node.js CLI to stream, update, and delete MediaWiki pages on a remote server from local article files."
+languages:
+  - en
+default_language: en
+team:
+  - name: Vitalii Balabanov
+    roles:
+      - owner
+      - developer
+    github: Tertiumnon
